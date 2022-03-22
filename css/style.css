@@ -151,8 +151,14 @@ input {
   padding: initial;
   border: none;
 }
+.profil {
+  text-transform: uppercase;
+}
+.profil .profil-image {
+  max-width: 120px;
+  max-height: 120px;
+}
 #footer {
-  margin-top: auto;
   background-color: #aaa;
   font-size: 1.5rem;
 }
