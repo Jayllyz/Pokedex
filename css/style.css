@@ -52,6 +52,33 @@ header {
   padding-bottom: 15px;
   padding-left: 30px;
   padding-right: 30px;
+  color: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+nav,
+ul {
+  padding: 0;
+}
+nav a {
+  display: block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+li {
+  list-style: none;
 }
 h1 {
   text-align: center;
@@ -106,4 +133,5 @@ input {
   background-color: #4caf50;
   color: white;
   padding: initial;
+  border: none;
 }

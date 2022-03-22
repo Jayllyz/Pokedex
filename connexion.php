@@ -7,6 +7,7 @@ $linkLogoOnglet = "images/pikachu.png";
 include "includes/head.php";
 ?>
 <body>
+  <?php include "includes/header.php"; ?>
     <h1><strong>Connexion</strong></h1>
     <div class="container">
         <div class="connexion">
@@ -41,5 +42,6 @@ include "includes/head.php";
             </form>
         </div>
     </div>
+    <?php include "includes/footer.php"; ?>
 </body>
 </html>
