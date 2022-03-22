@@ -50,3 +50,34 @@ header {
   padding-left: 30px;
   padding-right: 30px;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.inscription,
+.connexion {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 15px;
+}
+.inscription form,
+.connexion form {
+  display: flex;
+  flex-direction: column;
+}
+h3,
+form {
+  margin: 0 !important;
+}
+input {
+  height: 35px;
+  width: 400px;
+}
+
+input {
+  margin-top: 15px;
+}
