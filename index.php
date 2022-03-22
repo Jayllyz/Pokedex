@@ -2,7 +2,7 @@
 <html lang="fr">
 <?php
 $title = "Accueil";
-$linkCss = "style.css";
+$linkCss = "css/style.css";
 $linkLogoOnglet = "images/pikachu.png";
 include "includes/head.php";
 ?>
