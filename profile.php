@@ -20,13 +20,25 @@ include "includes/config.php";
     ]);
     $result = $req->fetchAll(PDO::FETCH_ASSOC);
     foreach ($result as $select) { ?>
-    <h1 class="profil">Mon compte</h1>
-    <?= '<img src="uploads/' .
-      $select["image"] .
-      '" class="profil-image" alt="...">' ?>
+    <h1>Mon compte</h1>
+    <div class="profil">
+        <div class="infos">
+            <h2>Mes infos</h2>
+            <p><span>Pseudo : </span><?= $select["pseudo"] ?></p>
+            <p><span>Email : </span><?= $select["email"] ?></p>
+        </div>
+        <div class="image">
 
-<?php }
+            <label>Image de profil: </label><?= '<img src="uploads/' .
+              $select["image"] .
+              '" class="profil-image" alt="...">' ?>
+
+        <?php }
     ?>
+        </div>
+
+    </div>
+
     <?php include "includes/footer.php"; ?>
 </body>
 </html>

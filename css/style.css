@@ -55,6 +55,9 @@ header {
   color: #fff;
   font-weight: bold;
 }
+h1 {
+  text-transform: uppercase;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -152,8 +155,18 @@ input {
   border: none;
 }
 .profil {
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
 }
+.profil label,
+.profil span {
+  font-size: 1.5em;
+}
+.profil .image {
+  display: flex;
+}
+
 .profil .profil-image {
   max-width: 120px;
   max-height: 120px;
