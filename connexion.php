@@ -7,13 +7,14 @@ $linkLogoOnglet = "images/pikachu.png";
 include "includes/head.php";
 ?>
 <body>
+    <h1><strong>Connexion</strong></h1>
     <div class="container">
         <div class="connexion">
             <h3><strong>Je posède un compte</strong></h3>
             <form action="" method="post">
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Mot de passe" required>
-                <input type="submit" value="Connexion">
+                <input type="submit" class="submit" value="Connexion">
             </form>
         </div>
         <div class="inscription">
@@ -22,9 +23,9 @@ include "includes/head.php";
                 <input type="text" name="pseudo" placeholder="Pseudo" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Mot de passe" required>
-                <label><strong>Image</strong></label>
-                <input type="file" name="image" accept="image/png, image/jpeg">
-                <input type="submit" value="Inscription">
+                <label><strong>Image de profil: </strong>
+                <input type="file" name="image" class="image" accept="image/png, image/jpeg"></label>
+                <input type="submit" class="submit" value="Inscription">
             </form>
         </div>
     </div>
