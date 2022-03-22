@@ -8,6 +8,7 @@ include "includes/head.php";
 ?>
 <body>
   <?php include "includes/header.php"; ?>
+  <?php include "includes/message.php"; ?>
     <h1><strong>Connexion</strong></h1>
     <div class="container">
         <div class="connexion">
@@ -19,7 +20,7 @@ include "includes/head.php";
                   ? $_COOKIE["email"]
                   : "" ?>" required>
                 <input type="password" name="password" placeholder="Mot de passe" required>
-                <input type="submit" class="submit" value="Connexion">
+                <input type="submit" name="submit" class="submit" value="Connexion">
             </form>
         </div>
         <div class="inscription">
@@ -38,7 +39,7 @@ include "includes/head.php";
                 <input type="password" name="password" placeholder="Mot de passe" required>
                 <label><strong>Image de profil: </strong>
                 <input type="file" name="image" class="image" accept="image/png, image/jpeg"></label>
-                <input type="submit" class="submit" value="Inscription">
+                <input type="submit" name="submit" class="submit" value="Inscription">
             </form>
         </div>
     </div>

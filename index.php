@@ -7,6 +7,7 @@ $linkLogoOnglet = "images/pikachu.png";
 include "includes/head.php";
 ?>
     <body>
+            <?php include "includes/message.php"; ?>
             <?php include "includes/header.php"; ?>
             
                 <main>
