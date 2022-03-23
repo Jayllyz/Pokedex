@@ -133,6 +133,7 @@ h1 {
 }
 .inscription {
   margin-left: 1%;
+  max-width: 435px;
 }
 h3,
 form {
