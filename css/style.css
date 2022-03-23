@@ -199,3 +199,21 @@ input {
   display: flex;
   align-items: center;
 }
+.container-message {
+  display: flex;
+  justify-content: center;
+}
+.message-div {
+  width: 50%;
+}
+.message-text {
+  font-size: 1.5em;
+}
+.success {
+  background-color: #d1e7dd;
+  padding: 10px;
+}
+.danger {
+  background-color: #f8d7da;
+  padding: 10px;
+}

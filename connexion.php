@@ -8,8 +8,13 @@ include "includes/head.php";
 ?>
 <body>
   <?php include "includes/header.php"; ?>
-  <?php include "includes/message.php"; ?>
     <h1><strong>Connexion</strong></h1>
+    <div class="container-message">
+      <div class="message-div">
+        <?php include "includes/message.php"; ?>
+      </div>
+    </div>
+
     <div class="container">
         <div class="connexion">
             <h3><strong>Je possède un compte</strong></h3>

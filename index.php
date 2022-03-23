@@ -9,10 +9,16 @@ include "includes/head.php";
 ?>
     <body>
             <?php include "includes/header.php"; ?>
-            <?php include "includes/message.php"; ?>
+            
             
                 <main>
+                <div class="container-message">
+                    <div class="message-div">
+                        <?php include "includes/message.php"; ?>
+                    </div>
+                </div>
                     <div class="accueil">
+        
                         <img src="images/pikachu.png" alt="pikachu">
                         <h1>Bienvenue sur le pokedex de l'ESGI !</h1>
                     </div>

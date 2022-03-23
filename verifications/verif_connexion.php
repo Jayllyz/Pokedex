@@ -14,12 +14,14 @@ if (isset($_POST["submit"])) {
     empty($_POST["email"]) ||
     !filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)
   ) {
-    header("location: ../connexion.php?message=Email invalide !");
+    header("location: ../connexion.php?message=Email invalide !&type=danger");
     exit();
   }
 
   if (!isset($_POST["password"]) || empty($_POST["password"])) {
-    header("location: ../connexion.php?message=Mot de passe manquant !");
+    header(
+      "location: ../connexion.php?message=Mot de passe manquant !&type=danger"
+    );
     exit();
   }
   $req = $db->prepare(
@@ -33,12 +35,12 @@ if (isset($_POST["submit"])) {
   if ($reponse) {
     foreach ($reponse as $select) {
       $_SESSION["id"] = $select["id"];
-      header("location: ../index.php?message=Vous êtes connecté");
+      header("location: ../index.php?message=Vous êtes connecté&type=success");
       exit();
     }
   } else {
     header(
-      "location: ../connexion.php?message=Email ou mot de passe incorrect !"
+      "location: ../connexion.php?message=Email ou mot de passe incorrect !&type=danger"
     );
     exit();
   }
