@@ -1,6 +1,6 @@
 <header>
     <nav class="header">
-        <img src="images/logo.png" height="40">
+        <a href="index.php"><img src="images/logo.png" height="40"></a>
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="collection.php">Collection</a></li>
