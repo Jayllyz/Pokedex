@@ -152,6 +152,7 @@ input {
 }
 .image {
   padding: 0;
+  font-size: 14px;
 }
 .submit {
   background-color: #4caf50;
@@ -182,4 +183,19 @@ input {
   padding: 2rem;
   text-align: center;
   margin-top: auto;
+}
+.profil label {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.inscription label {
+  display: flex;
+}
+.inscription label strong {
+  width: 200px;
+  display: flex;
+  align-items: center;
 }
