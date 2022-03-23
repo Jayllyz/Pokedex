@@ -43,7 +43,7 @@ include "includes/head.php";
                   : "" ?>" required> 
                 <input type="password" name="password" placeholder="Mot de passe" required>
                 <label><strong>Image de profil: </strong>
-                <input type="file" name="image" class="image" accept="image/png, image/jpeg"></label>
+                <input type="file" name="image" class="image" accept="image/png, image/jpeg" required></label>
                 <input type="submit" name="submit" class="submit" value="Inscription">
             </form>
         </div>

@@ -38,6 +38,7 @@ include "includes/config.php";
         </div>
 
     </div>
+    <hr class="separate">
 
     <?php include "includes/footer.php"; ?>
 </body>
