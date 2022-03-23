@@ -178,4 +178,6 @@ input {
   background-color: #aaa;
   font-size: 1.5rem;
   margin-top: auto;
+  padding: 2rem;
+  text-align: center;
 }
