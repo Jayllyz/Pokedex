@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+if (isset($_SESSION["id"])) { ?>
 <!DOCTYPE html>
 <html lang="fr">
 <?php
@@ -39,7 +40,14 @@ include "includes/config.php";
 
     </div>
     <hr class="separate">
+    <div class="profil">
+        <div class="infos">
+            <h2>Mes pokémons</h2>
+        </div>
+    </div>
 
     <?php include "includes/footer.php"; ?>
 </body>
 </html>
+<?php } else {header("location: index.php");
+  exit();} ?>

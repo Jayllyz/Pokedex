@@ -191,7 +191,7 @@ input {
   flex-direction: row;
   flex-wrap: nowrap;
 }
-.inscription label {
+label {
   display: flex;
 }
 .inscription label strong {
@@ -221,4 +221,26 @@ input {
   width: 86%;
   background-color: grey;
   margin-top: 5%;
+}
+#add_pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+#add_pokemon input {
+  width: 80%;
+  height: 50px;
+  border: 1px solid grey;
+}
+.image {
+  border: none !important;
+}
+.image_pokemon_div {
+  width: 80%;
+  display: flex;
+}
+.image_pokemon {
+  align-items: baseline;
+  justify-content: space-around;
 }
