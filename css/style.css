@@ -159,6 +159,7 @@ input {
   color: white;
   padding: initial;
   border: none;
+  cursor: pointer;
 }
 .profil {
   display: flex;
@@ -243,4 +244,7 @@ label {
 .image_pokemon {
   align-items: baseline;
   justify-content: space-around;
+}
+.active {
+  text-decoration: underline;
 }

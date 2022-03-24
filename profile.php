@@ -22,6 +22,11 @@ include "includes/config.php";
     $result = $req->fetchAll(PDO::FETCH_ASSOC);
     foreach ($result as $select) { ?>
     <h1>Mon compte</h1>
+    <div class="container-message">
+      <div class="message-div">
+        <?php include "includes/message.php"; ?>
+      </div>
+    </div>
     <div class="profil">
         <div class="infos">
             <h2>Mes infos</h2>
