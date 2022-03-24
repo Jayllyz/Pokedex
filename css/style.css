@@ -48,6 +48,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+main {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 header {
   background-color: #aaa;
@@ -166,6 +171,17 @@ input {
   flex-direction: column;
   margin-left: 7%;
 }
+#fullPokemons {
+  margin-right: 30px;
+}
+.pokemons {
+  display: flex;
+  margin-left: 7%;
+  flex-wrap: wrap;
+}
+.mesPokemons {
+  margin-left: 7%;
+}
 .profil label,
 .profil span {
   font-size: 1.5em;
@@ -177,6 +193,17 @@ input {
 .profil .profil-image {
   max-width: 120px;
   max-height: 120px;
+}
+.all_info_poke {
+  display: flex;
+}
+.info_pokemons {
+  display: flex;
+  flex-direction: column;
+}
+.imagePoke span img {
+  width: 150px;
+  margin-left: 30px;
 }
 #footer {
   background-color: #aaa;
