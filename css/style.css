@@ -173,12 +173,16 @@ input {
 }
 #fullPokemons {
   margin-right: 30px;
-  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
 }
 .pokemons {
   display: flex;
   margin-left: 7%;
   flex-wrap: wrap;
+  width: 86%;
 }
 .mesPokemons {
   margin-left: 7%;
@@ -204,8 +208,8 @@ input {
 }
 .imagePoke span img {
   width: 150px;
-  margin-left: 30px;
-  padding-bottom: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 #footer {
   background-color: #aaa;

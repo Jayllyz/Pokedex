@@ -21,9 +21,9 @@ include "includes/config.php";
         $resultPoke = $req->fetchAll(PDO::FETCH_ASSOC);
         foreach ($resultPoke as $selectPoke) { ?>
             <div id="fullPokemons">
-                <p><strong><?= $selectPoke["nom"] ?></strong></p>
                 <div class="all_info_poke">
                 <div class="info_pokemons">
+                <p><strong><?= $selectPoke["nom"] ?></strong></p>
                     <span>PV: <?= $selectPoke["pv"] ?></span>
                     <span>Attaque: <?= $selectPoke["attaque"] ?></span>
                     <span>Défense: <?= $selectPoke["defense"] ?></span>
