@@ -67,8 +67,6 @@ include "includes/config.php";
     <p><strong><?= $selectPoke["nom"] ?></strong></p>
     <div class="all_info_poke">
       <div class="info_pokemons">
-
-        
         <span>PV: <?= $selectPoke["pv"] ?></span>
         <span>Attaque: <?= $selectPoke["attaque"] ?></span>
         <span>Défense: <?= $selectPoke["defense"] ?></span>
