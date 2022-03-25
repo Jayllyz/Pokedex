@@ -40,7 +40,7 @@ include "includes/config.php";
 
             <label>Image de profil: </label><?= '<img src="uploads/' .
               $select["image"] .
-              '" class="profil-image" alt="...">' ?>
+              '" class="profil-image" alt="image-' . $select["pseudo"] . '">' ?>
 
         <?php }
   ?>
