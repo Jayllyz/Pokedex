@@ -26,7 +26,7 @@ if (isset($_POST["submit"])) {
   // Si la ligne existe : erreur, le pseudo est déja utilisé
   if ($reponse) {
     header(
-      "location: ../connexion.php?message=Ce pseudo est déja utilisé !&type=danger"
+      "location: ../connexion.php?message=Ce pseudo est déjà utilisé !&type=danger"
     );
     exit();
   } else {
@@ -41,7 +41,7 @@ if (isset($_POST["submit"])) {
   // Si la ligne existe : erreur, le pseudo est déja utilisé
   if ($reponse) {
     header(
-      "location: ../connexion.php?message=Cet email est déja utilisé !&type=danger"
+      "location: ../connexion.php?message=Cet email est déjà utilisé !&type=danger"
     );
     exit();
   } else {

@@ -36,7 +36,7 @@ if (isset($_POST["submit"])) {
     setcookie("defense", $defense, time() + 3600, "/");
   } else {
     header(
-      "location: ../add_pokemon.php?message=Veuillez remplir le champ defense !&type=danger"
+      "location: ../add_pokemon.php?message=Veuillez remplir le champ défense !&type=danger"
     );
     exit();
   }
@@ -103,7 +103,7 @@ if (isset($_POST["submit"])) {
     "id_user" => $id,
   ]);
   header(
-    "location: ../profile.php?message=Votre pokémon a bien été ajouter !&type=success"
+    "location: ../profile.php?message=Votre pokémon a bien été ajouté !&type=success"
   );
   exit();
 }
