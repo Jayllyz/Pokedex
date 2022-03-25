@@ -76,7 +76,7 @@ include "includes/config.php";
       <div class="imagePoke">
         <span><?= '<img src="uploadsPokemons/' .
           $selectPoke["image"] .
-          '" alt="...">' ?></span>
+          '" alt="' . $selectPoke["nom"] . '">' ?></span>
         </div>
     </div>
   </div>
