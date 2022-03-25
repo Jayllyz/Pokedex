@@ -1,5 +1,3 @@
-<?php session_start();
-if (isset($_SESSION["id"])) { ?>
 <!DOCTYPE html>
 <html lang="fr">
 <?php
@@ -43,5 +41,4 @@ include "includes/config.php";
     <?php include "includes/footer.php"; ?>
 </body>
 </html>
-<?php } else {header("location: index.php");
-  exit();} ?>
+
