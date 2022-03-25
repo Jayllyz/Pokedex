@@ -207,7 +207,8 @@ input {
   flex-direction: column;
 }
 .imagePoke span img {
-  width: 150px;
+  width: 180px;
+  height: 150px;
   margin-left: 2rem;
   margin-bottom: 2rem;
 }
