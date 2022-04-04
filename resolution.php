@@ -13,7 +13,7 @@
   $rheight = 500;
 
   //ouverture de l'image
-  $original = imagecreatefromjpeg($source);
+  $original = imagecreatefrompng($source);
 
   //resize
   $resized = imagecreatetruecolor($rwidth, $rheight);
@@ -25,6 +25,6 @@
   );
 
   //sauvegarder l'image redimensionner
-  imagejpeg($resized, $dest);
+  imagepng($resized, $dest);
 
 ?>

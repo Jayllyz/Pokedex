@@ -7,6 +7,7 @@ $linkCss = "css/style.css";
 $linkLogoOnglet = "images/pikachu.png";
 include "includes/head.php";
 include "includes/config.php";
+
 ?>
 <body>
     <?php include "includes/header.php"; ?>
@@ -29,7 +30,7 @@ include "includes/config.php";
                     <span>Vitesse: <?= $selectPoke["vitesse"] ?></span>
                 </div>
 
-                <?php include "resolution.php" ?>
+                <?php include 'resolution.php'; ?>
 
                 <div class="imagePoke">
                     <span><?= '<img src="uploadsPokemons/' .

@@ -3,7 +3,7 @@ $username = "root";
 $password = "root";
 try {
   $db = new PDO(
-    "mysql:host=localhost:3306;dbname=devweb",
+    "mysql:host=localhost:8889;dbname=pokedex",
     $username,
     $password,
     [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]

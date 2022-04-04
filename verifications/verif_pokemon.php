@@ -85,7 +85,7 @@ if (isset($_POST["submit"])) {
     $destination = $path . "/" . $filename;
     move_uploaded_file($_FILES["image"]["tmp_name"], $destination);
 
-    include "resolution.php"
+    include "resolution.php";
     
   } else {
     header(
