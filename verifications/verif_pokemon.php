@@ -84,6 +84,9 @@ if (isset($_POST["submit"])) {
 
     $destination = $path . "/" . $filename;
     move_uploaded_file($_FILES["image"]["tmp_name"], $destination);
+
+    include "resolution.php"
+    
   } else {
     header(
       "location: ../add_pokemon.php?message=Veuillez remplir le champ image !&type=danger"

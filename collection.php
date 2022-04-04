@@ -28,6 +28,9 @@ include "includes/config.php";
                     <span>Défense: <?= $selectPoke["defense"] ?></span>
                     <span>Vitesse: <?= $selectPoke["vitesse"] ?></span>
                 </div>
+
+                <?php include "resolution.php" ?>
+
                 <div class="imagePoke">
                     <span><?= '<img src="uploadsPokemons/' .
                       $selectPoke["image"] .
@@ -42,4 +45,3 @@ include "includes/config.php";
     <?php include "includes/footer.php"; ?>
 </body>
 </html>
-
