@@ -1,6 +1,6 @@
 <?php
-$username = DB_USER;
-$password = DB_PASSWORD;
+$username = "root";
+$password = "root";
 try {
   $db = new PDO(
     "mysql:host=localhost:8889;dbname=pokedex",
